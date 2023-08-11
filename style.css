@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    background-color: aquamarine;
+    height: 100vh;
+}
+#vid {
+    position: relative;
+    top: 50vh;
+    width: 50vw;
+    transform: translateX(50%) translateY(-50%);
+    border: none;
+    outline: none;
+}
+#tower{
+    position: absolute;
+    bottom: 0;
+    width: 8vw;
+    right: 0;
+}
+.tower:hover{
+    display: none;
+}
+
+
+.tower{
+     position: absolute;
+    bottom: 0;
+    width: 12vw;
+    height: 12vw;
+    right: 0;
+    background-color: aquamarine;
+}
